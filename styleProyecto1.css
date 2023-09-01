@@ -1,0 +1,163 @@
+body{
+    margin:0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Web",sans-serif;
+}
+/* TAMAÑO DE LAS FIGURAS */
+.logo{
+  width: 40px;
+  margin-left: 5px;
+}
+.preguntas{
+    width: 15px;
+    height: 15px;
+}
+.flechaizquierda{
+    width: 10px;
+    height: 10px;
+}
+.flechaderecha{
+    width: 10px;
+    height: 10px;
+}
+
+/* FORMA DEL ENCABEZADO */
+.cabecera{
+display:flex;
+/* width: 100%; */
+padding: 6px;
+align-items: center;
+background-color: white;
+border-bottom: 1px solid #ccc;
+
+}
+
+.cabecera .botonregresar{
+  position: relative;
+  left: 1%;
+  border: none !important;
+  background-color: rgb(159, 149, 149);
+  border-radius: 40%;
+  padding: 10px;
+}
+
+.cabecera label{
+  position: relative;
+  left: 2%;
+}
+
+.cabecera .guardar{
+  position: relative;
+  left: 50%;
+  border: none !important;
+  background-color: white;
+}
+
+.cabecera .botones{
+  position: relative;
+  left: 51%;
+  border: none !important;
+  background-color: white;
+}
+
+.cabecera .comentarios{
+  position: relative;
+  left: 52%;
+  border: none !important;
+  background-color: rgb(159, 149, 149);
+  border-radius: 40%;
+  padding: 10px;
+}
+
+.cabecera .avance{
+  position: relative;
+  left: 53%;
+  border: none !important;
+  background-color: rgb(159, 149, 149);
+  border-radius: 40%;
+  padding: 10px;
+}
+
+.cabecera .publicar{
+  position: relative;
+  left: 54%;
+  border: none !important;
+  background-color:blue !important;
+  border-radius: 40%;
+  padding: 10px;
+}
+
+.botonpregunta{
+  position: relative;
+  border-radius: 100%;
+  border-color: gray;
+  left: 56%;
+}
+
+/*COLUMNA CONFIGURACIONES DE LA COLUMNA*/
+.container {
+    display: flex;
+  }
+  
+  .column {
+    /* padding: 2px; */
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0%;
+  }
+
+  /* PRIMERA COLUMNA */
+
+  .imagenopciones{
+    width: 30px;
+    height: 30px;
+  }
+
+  .opciones{
+    width: 4%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: rgb(28, 28, 152);
+    padding: 10px;
+  }
+
+  .opciones label{
+    color: white;
+    font-size: 10px;
+  }
+
+  /* SEGUNDA COLUMNA */
+.imagencerrar{
+  width: 100%;
+  height: 100%;
+}
+  
+  .curriculo{
+    width: 35%;
+    background-color: #ebebeb;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .curriculo .opcionescurriculo{
+    border-bottom: 1px solid #ccc;
+    height: 55px;
+  }
+
+  .opcionescurriculo button{
+    width: 30px;
+    height: 30px;
+  }
+
+
+  .opcionescurriculo label{
+    padding-left: 7%;
+    font-weight: 700;
+  }
+
+
+
