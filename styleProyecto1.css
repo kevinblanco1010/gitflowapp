@@ -347,3 +347,31 @@ border-bottom: 1px solid #ccc;
   border: 20px  solid;
   border-color: #c2e0e0;
 }
+
+/* botones flotantes */
+
+.botonFlot{
+  position: fixed;
+  background-color: #e8e4e4;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px;
+  bottom: 20px;
+  right: 20px;
+}
+#p1{
+  bottom: 20px;
+}
+#p2{
+  bottom: 85px;
+}
+#p3{
+  bottom: 150px;
+}
+#p4{
+  bottom: 215px;
+}
+.tamano{
+  height: 40px;
+  width: 40px;
+}
