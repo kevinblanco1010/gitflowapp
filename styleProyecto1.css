@@ -347,13 +347,8 @@ border-bottom: 1px solid #ccc;
   border-color: #c2e0e0;
 }
 
-/* boton flotante */
+/* botones flotantes */
 
-/*#botonFlot{
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}*/
 .botonFlot{
   position: fixed;
   background-color: #e8e4e4;
