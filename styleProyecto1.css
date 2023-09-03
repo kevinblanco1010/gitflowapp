@@ -139,7 +139,7 @@ border-bottom: 1px solid #ccc;
 }
 
 .column-curriculo{
-  width: 14%;
+  width: 10%;
   background-color: #04054d;
   padding-left: 0%;
   padding-right: 0%;
@@ -230,7 +230,7 @@ border-bottom: 1px solid #ccc;
   height: 0;
   padding: 0;
   font-size: 15px;
-  margin-left: 79%;
+  margin-left: 75%;
   bottom: 0.5%;
   transform: translateY(-50%);
 }
@@ -277,7 +277,7 @@ border-bottom: 1px solid #ccc;
   .info-General{
     display:inline-block;
     background-color: #dadce5;
-    width: 74.5%;
+    width: 81%;
     vertical-align: top;
   }
   .info-Curso{
@@ -319,12 +319,12 @@ border-bottom: 1px solid #ccc;
     display: inline-block;
   }
   .boton-Cur{
-    width: 100%;
+    width: 42%;
     text-align: center;
     height: 13%;
-    background-color: #535b61;
-    border: 2px solid #474b4e;
-    color: #829cae;
+    background-color: #9aa7af;
+    border: 2px solid #eef1f3;
+    color: #47728d;
     cursor: pointer;
    
   }
@@ -337,16 +337,17 @@ border-bottom: 1px solid #ccc;
 .container-hombre{
   display: inline-block;
   vertical-align: top;  
-  background-color: #bacdd8;
-  width: 30%;
-  height: 50%;
+  background-color: #9aa7af;
+  width: 18.6%;
+  height: 92%;
   margin-left: 5%;
   margin-top: 30px;
   align-items: center;
 }
 
 .foto-hombre{
-  width: 240px;
+  width: 220px;
+  height: 220px;
   margin-left: 12px;
   margin-top: 12px;
   border: 20px  solid;
@@ -384,7 +385,8 @@ border-bottom: 1px solid #ccc;
 .site-footer {
   background-color: #333;
   color: #fff;
-  padding: 40px 0;
+  padding: 40px ;
+  
 }
 
 .site-footer .container {
@@ -435,8 +437,11 @@ border-bottom: 1px solid #ccc;
 
 .site-footer .footer-social i {
   font-size: 24px;
+  color:rgb(29, 30, 104)
 }
 
 .site-footer .footer-info {
   text-align: right;
+  margin-right: 30px;
+  
 }
