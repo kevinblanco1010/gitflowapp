@@ -319,14 +319,19 @@ border-bottom: 1px solid #ccc;
     display: inline-block;
   }
   .boton-Cur{
-    width: 52%;
+    width: 100%;
     text-align: center;
     height: 13%;
-    background-color: #91bcc5;
-    border: none;
+    background-color: #535b61;
+    border: 2px solid #474b4e;
     color: #829cae;
+    cursor: pointer;
+   
   }
-
+.start{
+  font-style: bold white;
+  font-family: "Gill Sans Extrabold";
+}
 /* Container Hombre */
 
 .container-hombre{
