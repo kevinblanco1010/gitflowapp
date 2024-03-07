@@ -110,6 +110,7 @@ border-bottom: 1px solid #ccc;
     list-style-type: none;
     padding: 0px;
     margin: 0%;
+
   }
 
   /* PRIMERA COLUMNA */
@@ -139,6 +140,7 @@ border-bottom: 1px solid #ccc;
   height: 100%;
 }
 
+/* lista de curriculum */
 .column-curriculo{
   width: 14%;
   background-color: #04054d;
@@ -146,7 +148,41 @@ border-bottom: 1px solid #ccc;
   padding-right: 0%;
   left: 200px;;
 }
+.lista li{
+  margin-right: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-right: 20px;
+  display: flex;
+  flex-direction: row;} 
 
+  .lista li img{
+  width: 80%;
+  height: 80%;
+}
+
+.blanco{
+  background-color:white;
+  color: black;
+}
+.negro{
+  background-color: black;
+  color: white;
+}
+
+li p{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.texto_curriculum{
+  font-size: 8px;
+  margin-left: 5%;
+  margin-top: 0;
+  margin-bottom:0;
+  margin-right: 0;
+}
 
 .opcionescurriculo .botoncerrar{
   position: absolute;
@@ -155,7 +191,7 @@ border-bottom: 1px solid #ccc;
 
 .curriculo .opcionescurriculo{
   border-bottom: 1px solid #ccc;
-  height: 54px;
+  height: 55px;
 }
   
 .cerrarPestaña{
@@ -247,9 +283,9 @@ border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
 }
 
-.imagenescurriculo li img{
+/* .imagenescurriculo li img{
   border-radius: 5px;
-}
+} */
 
 .column{
   font-size: 25px;
@@ -353,34 +389,6 @@ border-bottom: 1px solid #ccc;
   border: 20px  solid;
   border-color: #c2e0e0;
 }
-.contenidoazul{
-  width: 15%;
-  height: 38%;
-  background-color: #04054d;
-  margin-top: 1%;
-  margin-left: 40px;
-  position: absolute;
-  border-radius: 20px;
-}
-.linea{
-  border-top: 1px solid rgba(175, 175, 175, 0.575);
-  height: 1px;
-  max-width: 200px;
-  padding: 0;
-  margin: 2px auto 0 auto;
-}
-.barra {
-  padding-top: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 5px;
-  text-align: center;
-  color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
-}
-
 /*contendor azul de editar foto del hombre*/
 .editar-foto{
   position: flex;
@@ -392,62 +400,30 @@ border-bottom: 1px solid #ccc;
   margin-left: 13%;
   margin-top: 5%;
 }
-input[type="range"] {
-  width: 70%;
-  margin: 0 5%;
-  border: none;
-  height: 5px;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-.check-option {
-  display: flex;
-  align-items: center;
-  margin-top: 2px;
-}
 
-.check-option label {
-  margin-left: 5px;
-  font-size: 12px;
-  
-}
-.box {
-  margin-top:8px;
-  margin-left: 18px;
-  margin-right: 18px;
-  background-color: transparent;
-  border: 1px solid white;
-  padding-left: 10px;
-  padding-top:1px;
-  padding-bottom: 3px;
-  border-radius: 3px;
-  font-size: 16px;
-  color: white;
-  user-select: none;
 
-}
-
-.check2{
-  padding-top: 10px;
-  display: flex;
-  align-items: center;
-  margin-top: 2px;
-  font-size: 10px;
-}
 /* botones flotantes */
 
-#botonFlot {
-  position: absolute;
-  top: 865px;
-  right: 115px;
-  display: absolute;
-  flex-direction: column;
-}
-
-.botonFlot {
-  margin-bottom: 10px;
-  box-shadow: 0px 4px 6px;
+.botonFlot{
+  position: fixed;
+  background-color: #e8e4e4;
   border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px;
+  bottom: 20px;
+  right: 20px;
+}
+#p1{
+  bottom: 20px;
+}
+#p2{
+  bottom: 85px;
+}
+#p3{
+  bottom: 150px;
+}
+#p4{
+  bottom: 215px;
 }
 .tamano{
   height: 40px;
@@ -557,30 +533,3 @@ input[type="range"] {
   margin-left: 30%;
  }
 
-
- .top_sec {
-  color: white;
-}
-
-.bt_cur {
-  margin-bottom: 35px;
-  margin-left: 15px;
-}
-
-#sec {
-  margin-top: 15px;
-  margin-bottom: 25px;
-}
-
-#type {
-  margin-bottom: 10px;
-}
-
-.about {
-  width: 95%;
-  height: 30px;
-  background-color: #f8f9ff49 ;
-  color: white;
-  margin-right: 5px;
-  border: none;
-}
