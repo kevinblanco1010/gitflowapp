@@ -434,6 +434,33 @@ input[type="range"] {
   margin-top: 2px;
   font-size: 10px;
 }
+
+.lista {
+  list-style-type: none;
+  padding: 0;
+  font-size: 8px;
+}
+
+.lista li {
+  margin-left: 57px;
+  cursor: pointer;
+  color: white;
+}
+
+.lista li::before {
+  content: "\2714"; /* Chulito Unicode */
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+  opacity: 0; /* El chulito estará oculto inicialmente */
+}
+
+.lista li.checked::before {
+  opacity: 1; /* Mostrar el chulito cuando el elemento está seleccionado */
+}
+
 /* botones flotantes */
 
 #botonFlot {
