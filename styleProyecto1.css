@@ -438,7 +438,7 @@ input[type="range"] {
 
 #botonFlot {
   position: absolute;
-  top: 794px;
+  top: 865px;
   right: 115px;
   display: absolute;
   flex-direction: column;
@@ -557,3 +557,30 @@ input[type="range"] {
   margin-left: 30%;
  }
 
+
+ .top_sec {
+  color: white;
+}
+
+.bt_cur {
+  margin-bottom: 35px;
+  margin-left: 15px;
+}
+
+#sec {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+#type {
+  margin-bottom: 10px;
+}
+
+.about {
+  width: 95%;
+  height: 30px;
+  background-color: #f8f9ff49 ;
+  color: white;
+  margin-right: 5px;
+  border: none;
+}
